@@ -1,0 +1,22 @@
+ python -u train_eval.py \
+	--logs_dir "logs_train" \
+	--save_state_path "logs/sft-llama" \
+	--batch_size 4 \
+	--warm_up_ep 0 \
+	--epoch 0 \
+	--gradient_accumulation_steps 4 \
+	--eval 1 \
+	--train 1 \
+	--train_path '' \
+	--eval_path '' \
+	--resume_from_checkpoint 0 \
+	--checkpoint_dir "" \
+	--save_step 300 \
+	--eval_step 50 \
+	--load_state 0 \
+	--save_state 0 \
+	--eval_output_path '' \
+	--load_state_path '' \
+	--eval_em_rouge 1 \
+	--use_instr 1 \
+	--model "llama"
