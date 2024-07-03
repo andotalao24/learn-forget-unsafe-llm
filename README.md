@@ -17,8 +17,6 @@ This repo contains the code accompanying the paper [Learning and Forgetting Unsa
 
 |-- scripts/  \# sh files    
 
-## Experiments 
-
 ## Citing  
 
 ```bibtex
