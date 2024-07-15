@@ -36,8 +36,7 @@ Those noisy downstream data are then used to fine-tune LLMs.
    We use [Detoxify](https://pypi.org/project/detoxify/) to measure the toxicity.
 2. *bias*  
    We follow initial metrics in [BBQ](https://arxiv.org/pdf/2110.08193) to measure the bias.
-3. *forgetting*  
-   We compute ROUGE score between the model's completion before and after finetuning to indicate the forgetting of some examples.
+
    
 ## Implementations
 ### Fine-tuning 
